@@ -10,7 +10,7 @@
     "iconUri": "",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy  unrestricted -File startInstall.ps1"
+              "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startInstall.ps1\"')]"
 
     }
 }
